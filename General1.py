@@ -3,16 +3,16 @@
 # соединение, строк. В остальных случаях введенные числа суммируются.
 
 
-def getNumber01():
+def get_number01():
 
-    getNumber1 = input('Введите 1 число: ')
-    getNumber2 = input('Введите 2 число: ')
+    get_number1 = input('Введите 1 число: ')
+    get_number2 = input('Введите 2 число: ')
     try:
-        if int(getNumber1) and int(getNumber1):
-            c = int(getNumber1) + int(getNumber2)
+        if int(get_number1) and int(get_number1):
+            c = int(get_number1) + int(get_number2)
             print(c)
     except ValueError:
-        print(getNumber1 + getNumber2)
+        print(get_number1 + get_number2)
 
 
-print(getNumber01())
+print(get_number01())
